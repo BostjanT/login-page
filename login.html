@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="login_style.css">
+  <title>Prijavna stran</title>
+</head>
+
+<body>
+  <div class="login-page">
+    <div class="form">
+      .<form class="register-form" method="get">
+        <input type="text" name="text" id="name" placeholder="vnesi uporabniško ime" required>
+        <input type="password" name="password" id="password" placeholder="vnesi geslo" required>
+        <input type="email" name="email" id="email" placeholder="vnesi svoj email naslov" required>
+        <button type="submit">Ustvari</button>
+        <p class="msg">Ste že registrirani? <a href="#" target="_blank">Prijava</a> </p>
+      </form>
+
+
+      <form class="login-form">
+        <input type="text" name="uporabnik" id="uporabnik" placeholder="uporabniško ime">
+        <input type="password" name="password" id="password" placeholder="geslo">
+        <button type="submit">Prijava</button>
+        <p class="msg">Še niste registrirani? <a href="#">Registriraj se</a> </p>
+      </form>
+    </div>
+
+  </div>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="login.js"></script>
+</body>
+
+</html>
